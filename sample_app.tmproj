@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Sites/rails_projects/sample_app/app/views/pages/about.html.erb</string>
+	<string>app/views/pages/home.html.erb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -73,6 +73,8 @@
 			<string>log</string>
 		</dict>
 		<dict>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>public</string>
 			<key>regexFolderFilter</key>
@@ -121,6 +123,8 @@
 			<string>vendor</string>
 		</dict>
 		<dict>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>spec</string>
 			<key>regexFolderFilter</key>
@@ -133,54 +137,26 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>Sites/rails_projects/sample_app/app/controllers/application_controller.rb</key>
+		<key>app/controllers/pages_controller.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>15</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>Sites/rails_projects/sample_app/app/controllers/pages_controller.rb</key>
+		<key>app/controllers/users_controller.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>5</integer>
-				<key>line</key>
-				<integer>8</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>Sites/rails_projects/sample_app/app/views/layouts/application.html.erb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>Sites/rails_projects/sample_app/app/views/pages/about.html.erb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
+				<integer>22</integer>
 				<key>line</key>
 				<integer>2</integer>
 			</dict>
@@ -189,49 +165,91 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>Sites/rails_projects/sample_app/app/views/pages/contact.html.erb</key>
+		<key>app/helpers/application_helper.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>Sites/rails_projects/sample_app/app/views/pages/home.html.erb</key>
+		<key>app/views/layouts/_footer.html.erb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>Sites/rails_projects/sample_app/config.ru</key>
+		<key>app/views/layouts/_header.html.erb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>11</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>Sites/rails_projects/sample_app/config/routes.rb</key>
+		<key>app/views/layouts/_stylesheets.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>7</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/layouts/application.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>36</integer>
+				<key>line</key>
+				<integer>13</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/pages/about.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>7</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/pages/contact.html.erb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -245,7 +263,63 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>Sites/rails_projects/sample_app/public/422.html</key>
+		<key>app/views/pages/help.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>7</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/pages/home.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>9</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>config/application.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>14</integer>
+		</dict>
+		<key>config/routes.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>2</integer>
+				<key>line</key>
+				<integer>4</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>public/__index.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -259,7 +333,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>Sites/rails_projects/sample_app/public/index.html</key>
+		<key>public/stylesheets/blueprint/print.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -273,7 +347,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>Sites/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb</key>
+		<key>public/stylesheets/blueprint/screen.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -285,26 +359,76 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
+			<integer>51</integer>
+		</dict>
+		<key>public/stylesheets/custom.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>112</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
 			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>81</integer>
+		</dict>
+		<key>spec/controllers/pages_controller_spec.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>26</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>spec/spec_helper.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>43</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>15</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>Sites/rails_projects/sample_app/config.ru</string>
-		<string>Sites/rails_projects/sample_app/app/views/layouts/application.html.erb</string>
-		<string>Sites/rails_projects/sample_app/app/controllers/application_controller.rb</string>
-		<string>Sites/rails_projects/sample_app/public/index.html</string>
-		<string>Sites/rails_projects/sample_app/public/422.html</string>
-		<string>Sites/rails_projects/sample_app/config/routes.rb</string>
-		<string>Sites/rails_projects/sample_app/app/views/pages/about.html.erb</string>
-		<string>Sites/rails_projects/sample_app/app/controllers/pages_controller.rb</string>
-		<string>Sites/rails_projects/sample_app/app/views/pages/home.html.erb</string>
-		<string>Sites/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb</string>
-		<string>Sites/rails_projects/sample_app/app/views/pages/contact.html.erb</string>
+		<string>spec/spec_helper.rb</string>
+		<string>config/application.rb</string>
+		<string>spec/controllers/pages_controller_spec.rb</string>
+		<string>app/controllers/pages_controller.rb</string>
+		<string>app/views/pages/help.html.erb</string>
+		<string>config/routes.rb</string>
+		<string>app/views/pages/home.html.erb</string>
+		<string>public/stylesheets/custom.css</string>
+		<string>app/views/layouts/application.html.erb</string>
+		<string>app/views/layouts/_stylesheets.html.erb</string>
+		<string>app/views/layouts/_header.html.erb</string>
+		<string>app/views/layouts/_footer.html.erb</string>
+		<string>public/__index.html</string>
+		<string>app/controllers/users_controller.rb</string>
+		<string>public/stylesheets/blueprint/screen.css</string>
+		<string>public/stylesheets/blueprint/print.css</string>
+		<string>app/views/pages/contact.html.erb</string>
+		<string>app/views/pages/about.html.erb</string>
+		<string>app/helpers/application_helper.rb</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{658, 188}, {706, 575}}</string>
+	<string>{{626, 151}, {649, 627}}</string>
 </dict>
 </plist>
