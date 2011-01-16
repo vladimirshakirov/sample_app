@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>app/models/user.rb</string>
+	<string>app/controllers/sessions_controller.rb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -33,8 +33,6 @@
 			<date>2010-12-20T19:26:23Z</date>
 		</dict>
 		<dict>
-			<key>expanded</key>
-			<true/>
 			<key>name</key>
 			<string>db</string>
 			<key>regexFolderFilter</key>
@@ -53,12 +51,16 @@
 		<dict>
 			<key>filename</key>
 			<string>Gemfile</string>
+			<key>lastUsed</key>
+			<date>2011-01-11T20:50:41Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>Gemfile.lock</string>
 		</dict>
 		<dict>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>lib</string>
 			<key>regexFolderFilter</key>
@@ -75,6 +77,8 @@
 			<string>log</string>
 		</dict>
 		<dict>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>public</string>
 			<key>regexFolderFilter</key>
@@ -137,6 +141,34 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
+		<key>Gemfile</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>31</integer>
+				<key>line</key>
+				<integer>9</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>2</integer>
+		</dict>
+		<key>app/controllers/application_controller.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>24</integer>
+				<key>line</key>
+				<integer>2</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>app/controllers/pages_controller.rb</key>
 		<dict>
 			<key>caret</key>
@@ -144,7 +176,21 @@
 				<key>column</key>
 				<integer>2</integer>
 				<key>line</key>
-				<integer>15</integer>
+				<integer>16</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/controllers/sessions_controller.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>4</integer>
+				<key>line</key>
+				<integer>1</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -156,9 +202,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>22</integer>
-				<key>line</key>
 				<integer>2</integer>
+				<key>line</key>
+				<integer>7</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -170,9 +216,51 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
+				<integer>4</integer>
+				<key>line</key>
+				<integer>14</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/helpers/pages_helper.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>10</integer>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/helpers/sessions_helper.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>56</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>27</integer>
+		</dict>
+		<key>app/helpers/users_helper.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>2</integer>
+				<key>line</key>
+				<integer>6</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -184,14 +272,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>7</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>34</integer>
+				<integer>31</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>10</integer>
+			<integer>20</integer>
 		</dict>
 		<key>app/views/layouts/_footer.html.erb</key>
 		<dict>
@@ -212,9 +300,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>49</integer>
 				<key>line</key>
-				<integer>11</integer>
+				<integer>6</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -240,9 +328,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>36</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>13</integer>
+				<integer>14</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -305,7 +393,91 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>config/application.rb</key>
+		<key>app/views/sessions/new.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>17</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/shared/_error_messages.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>13</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/users/_user.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>4</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/users/edit.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>29</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/users/index.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>9</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/users/new.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>57</integer>
+				<key>line</key>
+				<integer>3</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/users/show.html.erb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -317,16 +489,30 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>14</integer>
+			<integer>0</integer>
+		</dict>
+		<key>config/environment.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>config/routes.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>2</integer>
+				<integer>38</integer>
 				<key>line</key>
-				<integer>4</integer>
+				<integer>12</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -369,6 +555,20 @@
 				<integer>0</integer>
 				<key>line</key>
 				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>lib/tasks/sample_data.rake</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>21</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -424,26 +624,12 @@
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>112</integer>
+				<integer>188</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>81</integer>
-		</dict>
-		<key>spec/controllers/pages_controller_spec.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>26</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>157</integer>
 		</dict>
 		<key>spec/spec_helper.rb</key>
 		<dict>
@@ -462,33 +648,32 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>spec/spec_helper.rb</string>
-		<string>config/application.rb</string>
-		<string>spec/controllers/pages_controller_spec.rb</string>
-		<string>app/controllers/pages_controller.rb</string>
-		<string>app/views/pages/help.html.erb</string>
-		<string>config/routes.rb</string>
-		<string>app/views/pages/home.html.erb</string>
-		<string>app/models/user.rb</string>
-		<string>db/migrate/20110102155534_add_password_to_users.rb</string>
-		<string>db/migrate/20110102144450_add_email_uniqueness_index.rb</string>
-		<string>db/migrate/20101229191829_create_users.rb</string>
 		<string>public/stylesheets/custom.css</string>
-		<string>app/views/layouts/application.html.erb</string>
-		<string>app/views/layouts/_stylesheets.html.erb</string>
-		<string>app/views/layouts/_header.html.erb</string>
-		<string>app/views/layouts/_footer.html.erb</string>
-		<string>public/__index.html</string>
-		<string>app/controllers/users_controller.rb</string>
-		<string>public/stylesheets/blueprint/screen.css</string>
-		<string>public/stylesheets/blueprint/print.css</string>
-		<string>app/views/pages/contact.html.erb</string>
-		<string>app/views/pages/about.html.erb</string>
+		<string>app/controllers/sessions_controller.rb</string>
+		<string>app/controllers/application_controller.rb</string>
+		<string>app/models/user.rb</string>
+		<string>app/helpers/users_helper.rb</string>
 		<string>app/helpers/application_helper.rb</string>
+		<string>app/helpers/pages_helper.rb</string>
+		<string>app/helpers/sessions_helper.rb</string>
+		<string>app/views/sessions/new.html.erb</string>
+		<string>config/routes.rb</string>
+		<string>app/controllers/users_controller.rb</string>
+		<string>app/views/users/index.html.erb</string>
+		<string>app/views/users/_user.html.erb</string>
+		<string>config/environment.rb</string>
+		<string>app/views/users/edit.html.erb</string>
+		<string>app/views/shared/_error_messages.html.erb</string>
+		<string>app/views/users/new.html.erb</string>
+		<string>app/views/layouts/_header.html.erb</string>
+		<string>Gemfile</string>
+		<string>lib/tasks/sample_data.rake</string>
+		<string>app/views/users/show.html.erb</string>
+		<string>app/controllers/pages_controller.rb</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{626, 151}, {649, 627}}</string>
+	<string>{{631, 119}, {649, 627}}</string>
 </dict>
 </plist>
